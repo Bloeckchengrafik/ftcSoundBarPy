@@ -1,0 +1,7 @@
+README.md
+setup.py
+ftSoundBarCtrl.egg-info/PKG-INFO
+ftSoundBarCtrl.egg-info/SOURCES.txt
+ftSoundBarCtrl.egg-info/dependency_links.txt
+ftSoundBarCtrl.egg-info/top_level.txt
+ftcSoundBar/__init__.py
