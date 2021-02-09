@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='ftSoundBarCtrl',
-    version='1.0',
+    version='1.2',
     packages=['ftcSoundBar'],
     url='',
     license='GNU General Public License v3.0',
