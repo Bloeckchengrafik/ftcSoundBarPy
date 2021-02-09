@@ -5,7 +5,7 @@ class WifiCtrl:
     def __init__(self, ip):
         self.__ip = ip
     def __post(self, endpoint, payload):
-        url = "http://{host}/api/v1/{endpoint}".format(host = self.__ip, endpoint = endpoint)
+        url = "http://{host}/api/{endpoint}".format(host = self.__ip, endpoint = endpoint)
 
         headers = {'Content-Type': 'text/json'}
         payload = json.dumps(payload)
@@ -13,7 +13,7 @@ class WifiCtrl:
         return requests.request("post", url, headers=headers, data=payload).text
 
     def __get(self, endpoint, payload):
-        url = "http://{host}/api/v1/{endpoint}".format(host = self.__ip, endpoint = endpoint)
+        url = "http://{host}/api/{endpoint}".format(host=self.__ip, endpoint=endpoint)
 
         headers = {'Content-Type': 'text/json'}
         payload = json.dumps(payload)
